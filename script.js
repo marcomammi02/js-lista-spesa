@@ -1,20 +1,18 @@
+let arrItemList = [
+    'Lievito per dolci',
+    'Farina 00',
+    'Zucchero',
+    'Uova',
+    'Limone',
+    'Burro',
+    'Latte',
+    'Nutella'
+];
 
-
-let eleBtn= document.querySelector('#btn');
+let eleGoceryList = document.querySelector('#goceryList');
+const eleBtn= document.querySelector('#btn');
 
 eleBtn.addEventListener('click', function() {
-    let arrItemList = [
-        'Lievito per dolci',
-        'Farina 00',
-        'Zucchero',
-        'Uova',
-        'Limone',
-        'Burro',
-        'Latte',
-        'Nutella'
-    ];
-    
-    let eleGoceryList = document.querySelector('#goceryList');
     let i = 0;
     while (i < arrItemList.length) {
         console.log(arrItemList[i]);
