@@ -9,13 +9,12 @@ let arrItemList = [
     'Nutella'
 ];
 
-let eleGoceryList = document.querySelector('#goceryList');
+let eleGoceryList = document.querySelector('#groceryList');
 const eleBtn= document.querySelector('#btn');
 
 eleBtn.addEventListener('click', function() {
     let i = 0;
     while (i < arrItemList.length) {
-        console.log(arrItemList[i]);
         eleGoceryList.innerHTML += (`<li>${arrItemList[i]}</li>`);
         i++;
     }
